@@ -1,0 +1,12 @@
+#!/bin/bash
+
+PATH="${PATH}:/usr/local/bin/:${HOME}/bin"
+
+if which -s mate; then
+	if [[ "$(mate --version)" = mate\ 2.* ]]
+	then mate --wait --line "${MM_LINE_NUMBER}" --name "${MM_TITLE:-(no subject)}" "${MM_EDIT_FILEPATH}"
+	else mate --wait --line "${MM_LINE_NUMBER}" "${MM_EDIT_FILEPATH}"
+	fi
+else
+	osascript -e 'tell app "MailMate" to display dialog "Make sure you have the “mate” command installed. See the “Terminal” preferences pane within TextMate." buttons "OK" default button 1 with title "Unable to locate TextMate"' >/dev/null 2>&1 &
+fi
