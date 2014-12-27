@@ -1,6 +1,16 @@
-{	"contactEmailRot13" = "zz-ohaqyrf@sereba.pbz";
-	contactName = "Benny Kjær Nielsen";
-	description = "TextMate integration.";
-	name = "TextMate";
-	uuid = "DCE26D14-B61C-4F8E-923B-A7006961D4BD";
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>zz-ohaqyrf@sereba.pbz</string>
+	<key>contactName</key>
+	<string>Benny Kjær Nielsen</string>
+	<key>description</key>
+	<string>TextMate integration.</string>
+	<key>name</key>
+	<string>TextMate</string>
+	<key>uuid</key>
+	<string>DCE26D14-B61C-4F8E-923B-A7006961D4BD</string>
+</dict>
+</plist>
